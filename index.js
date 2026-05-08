@@ -1,5 +1,10 @@
-let x = "boy"
-console.log(x)
+var a = 3;
+var b = 8;
 
-let y = "girl"
-console.log(y)
+var c = a;
+a = b;
+b = c;
+
+
+console.log("a is "+ a);
+console.log("b is "+ b);
