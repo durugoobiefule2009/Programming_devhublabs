@@ -1,4 +1,4 @@
-function bmiCalculator(weight, height){
+function bmiCalculator(){
     var weight = document.getElementById("weight").value;
     var height = document.getElementById("height").value;
     var bmiCalc = Math.round(weight / (height**2));
